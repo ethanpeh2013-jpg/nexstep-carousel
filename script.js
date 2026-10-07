@@ -50,7 +50,8 @@ function move(direction) {
   update();
 
 }
-setInterval(() => {
+update();
+
+window.setInterval(function () {
   move(1);
 }, 3000);
-update();
